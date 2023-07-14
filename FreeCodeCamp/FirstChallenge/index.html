@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header container">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform </p>
+    </div>
+    <div class="form container">
+        <form id="survey-form">
+            <p class="input-name name-label">Name</p>
+            <input id="name" type="text" placeholder="Enter your name">
+            <p class="input-name email-label">Email</p>
+            <input id="email" type="email" placeholder="Enter your Emali">
+            <p class="input-name age-label">Age <span>(optional)</span></p>
+            <input id="age" type="number" min="10" max="99" placeholder="Age">
+            <p class="input-name role-label">Which option best describes your current role?</p>
+            <select list="dropdown" id="dropdown"> 
+            <option  name="role" disabled>Select current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
 
+            </select>    
+        </form>
+    </div>
 
     
-  </body>
+</body>
 </html>
