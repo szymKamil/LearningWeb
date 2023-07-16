@@ -1,24 +1,27 @@
 body {
-    box-sizing: border-box;
-    font-family: "Poppins, sans-serif";
+  box-sizing: border-box;
+  font-family: "Poppins, sans-serif";
 }
 
 .container {
-    margin: auto;
+  margin: auto;
 }
 
 .header {
-    text-align: center;
-    padding: 3vh;    
+  text-align: center;
+  padding: 3vh;
 }
 
 .form {
-background-color: rgb(36, 36, 68, .9);
-padding: 20px;
-width: 50%;
-
+  background-color: rgb(36, 36, 68, 0.9);
+  padding: 20px;
+  width: 50%;
 }
 
 .input-name {
-    color: #ffffff;
+  color: #ffffff;
+}
+
+textarea {
+  resize: vertical;
 }
